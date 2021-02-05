@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#firma{
+    padding-top: 1%;
+    font-family: 'Kristi', cursive;
+}
+.navbar {
+    z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+}
+
+@media (max-width: 740px) {
+    html, body, header, .carousel {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html, body, header, .carousel {
+        height: 100vh;
+    }
+}
+
+.view, body, html {
+    height: 100vh;
+}
+
+/* carousel */
+
+.carousel {
+    height: 80vh;
+}
+
+.carousel .carousel-inner, .carousel .carousel-inner .active, .carousel .carousel-inner .carousel-item {
+    height: 80vh;
+}
+
+@media (max-width:776px) {
+    .carousel {
+        height: 100vh;
+    }
+}
+
+/*about us*/
+#uno{
+    display: flex;
+    box-sizing:border-box;
+    align-content: flex-end;
+    justify-content: space-around;
+    background-color: #000000;
+    opacity: 0.8;
+    color: whitesmoke;
+    width:auto;
+    height: auto;
+}
+#acerca{
+    display: flex;
+    width:auto;
+    height: auto;
+}
+.chica{
+        max-width: 50%;
+        height: auto;
+        border-radius: 180px;
+}
+#social{
+    padding-top: 1%;
+    padding-left: 2%;
+}
+.aboutus{
+    
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+    animation-duration: 2s;
+	animation-name: slideuno;
+	opacity: 0.9;
+}
+@keyframes slideuno{
+	50%{
+margin-left: 50%;
+width: 100%;
+	}
+	100%{
+margin-left: 0%;
+width: 100%;
+	}
+}
+
+#artistico{
+    display: flex;
+    background-color:#000000;
+    opacity: 0.8;
+    width:auto;
+    height: auto;
+}
+#imagen{
+    padding-top: 2%;
+}
+.art{
+    max-width: 50%;
+    height: auto;
+    border-radius: 80px;
+}
+.maquillaje{
+    
+    padding: 4%;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size:medium;
+    animation-duration: 2s;
+	animation-name: slidedos;
+	
+	opacity: 0.9;
+}
+@keyframes slidedos{
+	50%{
+margin-left: 50%;
+width: 100%;
+	}
+	100%{
+margin-left: 0%;
+width: 100%;
+	}
+}
+#services{
+    max-width: 100%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.titulo0{
+    font-family: 'Courgette', cursive;
+    padding-top: 2%;
+    padding-left: 4%;
+    color: whitesmoke;
+}
+
+.corona{
+        max-width: 25%;
+        height: auto;
+        border-radius: 180px;
+}
+#primero{
+    padding: 2%;
+}
+.titulo1{
+    font-family: 'Courgette', cursive;
+    margin-right: 9%;
+    padding-top: 2%;
+    text-align: right;  
+}
+.titulo2{
+    font-family: 'Courgette', cursive;
+    margin-left:5%;
+    padding-top:2%;
+    color:whitesmoke;
+}
+.agenda{
+    font-family: 'Courgette', cursive;
+    padding: 1%;
+    text-align: center;
+
+}
+
+#downtown{
+    padding-top: 1%;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+.contact{
+    font-family: 'Courgette', cursive;
+    padding-left: 5%;
+    text-align: left;
+}
+#formulario{
+    padding-left:4%;
+    padding-right: 4%;
+}
+.card-footer {
+    font-family: 'Kristi', cursive;
+    color: #ffffff;
+    font-size:x-large;
+    text-align: end;
+    padding-right: 2%;
+}
+
+.card-title{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size:large;
+}
+.final{
+    font-family: 'Kristi', cursive;
+    color:#ffffff;
+    text-align: center;
+}
